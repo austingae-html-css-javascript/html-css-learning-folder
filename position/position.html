@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position Practice</title>
+    <style>
+      body {
+        height: 2000px;
+        font-family: Arial;
+      }
+
+      p {
+        margin: 0px;
+      }
+
+      .div-thumbnail {
+        position: fixed;
+      }
+
+      .thumbnail {
+        width: 300px;
+      }
+
+      .div-time {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+      }
+
+      .time {
+        background-color: black;
+        color: white;
+        font-size: 12px;
+      }
+
+      
+    </style>
+  </head>
+
+  <body>
+    <div class="div-thumbnail"> <!-- THUMBNAIL-->
+      <img class="thumbnail" src="lofithumb.webp">
+      <div class="div-time"> <!--Time-->
+        <p class="time">21:00</p>
+      </div>
+    </div>
+
+  </body>
+</html>
+
+<!--LESSON:
+1) position: fixed 
+2) CSS properties: top, bottom, left, and right
+effect: placed on the browser window
+
+2) combination of position: relative and position: absolute
+effect: an element on top of an image
+
+3) combination of position: fixed and position: absolute
+effect: an element on top of an image
+-->
+
+<!--
+  You can create overlay with position: fixed
+-->

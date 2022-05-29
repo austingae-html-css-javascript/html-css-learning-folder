@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      body {
+        font-family: Arial;
+      }
+      .main-div {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+
+        column-gap: 20px;
+        row-gap: 10px;
+      }
+
+      .div-profile {
+        box-shadow: 0px 0px 3px 3px rgba(220,220,220,0.8);
+      }
+
+      img {
+        width:100%;/*width:100% means making the image's width = image's div's width*/
+      }
+
+      .name {
+        margin-left: 10px;
+      }
+
+      .div-icon-friend {
+        display:grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: auto;
+        margin-left: 10px;
+      }
+
+      .icon {
+        width:70%;
+        border-radius: 30px;
+      }
+
+      .friend {
+        color: rgba(114,114,114,0.7);
+        font-size: 15px;
+      }
+
+      .div-button {
+        margin-top: 10px;
+      }
+
+      button {
+        background-color: rgb(30,136,229);
+        border-style: solid;
+        border-color: rgba(30,136,229);
+
+        color: white;
+        border-radius: 10px;
+
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-top: 5px;
+        padding-bottom:5px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+
+        cursor: pointer;
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class = "main-div"> <!--DIV holding three DIVs-->
+
+      <div class ="div-profile">
+        <div class = "div-image"> <!--Image-->
+          <img src="jeonsomin.jpg">
+        </div>
+
+        <div> <!--Name-->
+          <p class = "name">Jeon So Min</p>
+        </div>
+
+        <div class = "div-icon-friend"> <!--Icon and Friend-->
+          <div> <!--Icon-->
+            <img class = "icon" src="koreanflag.ico">
+           </div>
+          <div class = "div-friend"> <!--Friend-->
+            <p class = "friend">2 Mutual Friends</p>
+          </div>
+        </div>
+
+        <div class = "div-button"> <!--Button-->
+          <button>Add Friend</button>
+        </div>
+      </div>
+
+      <div class ="div-profile">
+        <div class = "div-image"> <!--Image-->
+          <img src="kimdaemi.jpg">
+        </div>
+
+        <div> <!--Name-->
+          <p class = "name" >Kim Dae Mi</p>
+        </div>
+
+        <div class = "div-icon-friend"> <!--Icon and Friend-->
+          <div> <!--Icon-->
+            <img class = "icon" src="koreanflag.ico">
+           </div>
+          <div> <!--Friend-->
+            <p class = "friend">5 Mutual Friends</p>
+          </div>
+        </div>
+
+        <div class = "div-button"> <!--Button-->
+          <button>Add Friend</button>
+        </div>
+      </div>
+
+      <div class ="div-profile">
+        <div class = "div-image"> <!--Image-->
+          <img src="suzy.jpg">
+        </div>
+
+        <div> <!--Name-->
+          <p class = "name">Suzy Bae</p>
+        </div>
+
+        <div class = "div-icon-friend"> <!--Icon and Friend-->
+          <div> <!--Icon-->
+            <img class = "icon" src="koreanflag.ico">
+           </div>
+          <div> <!--Friend-->
+            <p class = "friend">10 Mutual Friends</p>
+          </div>
+        </div>
+
+        <div class = "div-button"> <!--Button-->
+          <button>Add Friend</button>
+        </div>
+      </div>
+
+      <div class ="div-profile">
+        <div class = "div-image"> <!--Image-->
+          <img src="IU.jpg">
+        </div>
+
+        <div> <!--Name-->
+          <p class = "name">IU</p>
+        </div>
+
+        <div class = "div-icon-friend"> <!--Icon and Friend-->
+          <div> <!--Icon-->
+            <img class = "icon" src="koreanflag.ico">
+           </div>
+          <div> <!--Friend-->
+            <p class = "friend">3 Mutual Friends</p>
+          </div>
+        </div>
+
+        <div class = "div-button"> <!--Button-->
+          <button>Add Friend</button>
+        </div>
+      </div>
+
+      <div class ="div-profile">
+        <div class = "div-image"> <!--Image-->
+          <img src="irene.jpg">
+        </div>
+
+        <div> <!--Name-->
+          <p class = "name">Irene</p>
+        </div>
+
+        <div class = "div-icon-friend"> <!--Icon and Friend-->
+          <div> <!--Icon-->
+            <img class = "icon" src="koreanflag.ico">
+           </div>
+          <div> <!--Friend-->
+            <p class = "friend">8 Mutual Friends</p>
+          </div>
+        </div>
+
+        <div class = "div-button"> <!--Button-->
+          <button>Add Friend</button>
+        </div>
+      </div>
+
+      <div class ="div-profile">
+        <div class = "div-image"> <!--Image-->
+          <img src="taeri.jpg">
+        </div>
+
+        <div> <!--Name-->
+          <p class = "name">Kim Tae Ri</p>
+        </div>
+
+        <div class = "div-icon-friend"> <!--Icon and Friend-->
+          <div> <!--Icon-->
+            <img class = "icon" src="koreanflag.ico">
+           </div>
+          <div> <!--Friend-->
+            <p class = "friend">20 Mutual Friends</p>
+          </div>
+        </div>
+
+        <div class = "div-button"> <!--Button-->
+          <button>Add Friend</button>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
+
+<!--
+  Steps: 
+  1) Create the Parent Div
+  2) Create the CSS for the Parent Div
+  3) set the display: grid; then set the grid-template-columns and grid-template-rows to determine what grid you want
+  4) Then go back to the Parent Div and start adding DIVs inside. 
+  5) then go back to the CSS and add column-gap and row-gap
+-->
+
+<!--Use CCS Grid when I want to make column(s) and row(s)-->
+
+<!--
+A) If I want to make column(s) and row(s), use CCS Grid 
+- Steps: 
+  1) create the Parent DIV
+  2) create the CSS for the Parent DIV
+  3) set the display: grid; then set the grid-template-columns and grid-template-rows to determine what grid you want
+  4) Then go back to the Parent Div and start adding DIVs inside. 
+  5) then go back to the CSS and add column-gap and row-gap
+
+
+B) If I only want to make one row with no columns, simply leave the DIV alone as display:block.
+
+A and B have been verified. 
+-->

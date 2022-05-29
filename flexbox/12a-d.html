@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        margin:0px;
+      }
+
+      .main-div {
+        display:flex;
+        flex-direction:row;
+
+        
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main-div">
+      <div style="background-color:lightpink;
+      width:100px;
+      margin-right: 10px;
+      ">Left Div</div>
+
+      <div style="background-color:lightblue;
+      flex:1;
+      max-width:500px;">Middle Div</div>
+
+      <div style="background-color:lightpink;
+      width:100px;
+      margin-left:40px;
+      ">Right Div</div>
+    </div>
+  </body>
+</html>
+
+  <!--
+    flexbox:
+    parent div...
+    display:flex
+    flex-direction: row or column
+
+    align-items: start or end or center 
+    justify-content: start or end or space-between
+
+    child div...
+    flex: 1 2 3 etc. 
+    max-width: px;
+    width: px;
+  -->
+
+  <!--
+    justify-content: space-between
+
+    Scenario A: Left Div Width = 100px; Middle Div Width = 100px; Right Div Width = 100px.
+    In order to evenly space them, add in the parent div "justify-content: space-between;"
+
+    Scenario B:
+    Left Div Width = 100px; Middle Div Width = flex:1 and max-width: 500px; and Right Div Width = 100px
+    Before the Middle Div surpasses 500px, Left Div, Middle Div, and Right Div will take over the entire web page width.
+    After the Middle Div surpasses 500px, the remaining space to the right will be empty space. 
+    Now, you have three options: "justify-content:start", "justify-content:end", and "justify-content:space-between".
+    Depending on what you want, picking your option.
+
+    Scenario C: 
+    Left Div Width = 100px & margin-right = 20px; Middle Div Width = flex:1 and max-width: 500px; and Right Div Width = 100px & margin-left = 100px
+    Before the Middle Div surpasses 500px, Left Div & margin-right, Middle Div, and Right Div & margin-left will take over the entire web page width.
+    After the Middle Div surpasses 500px, the remaining space to the right will be empty space. 
+    Now, you have three options: "justify-content:start", "justify-content:end", and "justify-content:space-between".
+    Depending on what you want, picking your option.
+
+  -->
+  
+    

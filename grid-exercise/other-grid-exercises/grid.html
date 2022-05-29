@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .main-div {
+        display: grid;
+        grid-template-columns: 200px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <!--
+  Steps: 
+  1) Create the Parent Div
+  2) Create the CSS for the Parent Div
+  3) set the display: grid; then set the grid-template-columns and grid-template-rows to determine what grid you want
+  4) Then go back to the Parent Div and start adding DIVs inside. 
+  5) then go back to the CSS and add column-gap and row-gap
+-->
+
+    <div class = "main-div">
+      <div style="background-color:lightpink">DIV 1</div>
+
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+<!-- DIFFERENCE between display: inlineblock & display: grid
+1) DIVs with inline-block have a "natural" space between them; while DIVs with grid do not.
+2) DIVs with inline-block have different vertical alignment; while DIVs with grid have same vertical alignment. 
+
+1) and 2) has been verified. 
+
+-->
+
+<!--
+  1fr = div takes up the rest of the free space to its right in its container or web page
+  1fr 1fr 
+  1fr 2fr = the first div will have 1/3 of the free space, and the second div will have 2/3 of the free space
+-->
+
+<!--There are three columns. Each column = 1fr. 
+  Set the width of the video thumbnail to 100%, so that the width =
+100% of the column width.-->

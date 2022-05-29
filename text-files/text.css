@@ -1,0 +1,52 @@
+p {
+  font-family: Roboto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#stock-price {
+  font-size: 50px;
+}
+#currency-type {
+  font-size: 20px;
+  color: gray;
+  opacity:0.85;
+}
+
+#stock-price-change {
+  margin-top: 10px;
+  color: rgb(24, 128, 56)
+}
+
+#after-hours{
+  margin-top: 20px;
+  color: gray;
+  opacity:0.85;
+}
+
+#after-hours-change {
+  color: red;
+  margin-left: 10px;
+}
+
+#header {
+  margin-top: 20px;
+  font-family: Arial;
+}
+
+#username {
+  font-weight: bold;
+}
+
+#twitter {
+  color: gray;
+  opacity: .85;
+}
+
+#description {
+  margin-top: 10px;
+  width: 40%;
+}
+
+#twitter-name {
+  color: rgb(140, 187, 241);
+}

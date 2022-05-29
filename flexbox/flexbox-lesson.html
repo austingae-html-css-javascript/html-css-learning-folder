@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+
+  <!--
+    flexbox:
+    parent div...
+    display:flex
+    flex-direction: row or column
+
+    align-items: start or end or center 
+    justify-content: start or end or space-between
+
+    child div...
+    flex: 1 2 3 etc. 
+    max-width: px;
+    width: px;
+  -->
+
+  <!--Added flex:1-->
+  <body style="margin:0px;">
+
+    <div style="
+      margin-top: 30px;
+      display:flex;
+      flex-direction:row;">
+      <div style="background-color:lightblue;
+      width:100px;">
+        DIV1
+      </div>
+  
+      <div  style="background-color:lightpink;
+      flex:1;
+      ">
+        DIV2
+      </div>
+
+      <div style="background-color:lightblue;
+      width:100px;">
+        DIV3
+      </div>
+    </div>
+
+<!--Added max-width: 500px-->
+    <div style="
+    margin-top: 30px;
+    display:flex;
+    flex-direction:row;">
+    <div style="background-color:lightblue;
+    width:100px;">
+      DIV1
+    </div>
+
+    <div  style="background-color:lightpink;
+    flex:1;
+    max-width:500px;
+    ">
+      DIV2
+    </div>
+
+    <div style="background-color:lightblue;
+    width:100px;">
+      DIV3
+    </div>
+  </div>
+
+<!--Added "justify-content: space-between"-->
+  <div style="
+  margin-top: 30px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;">
+    <div style="background-color:lightblue;
+    width:100px;">
+      DIV1
+    </div>
+
+    <div  style="background-color:lightpink;
+    flex:1;
+    max-width:500px;
+    ">
+      DIV2
+    </div>
+
+    <div style="background-color:lightblue;
+    width:100px;">
+      DIV3
+    </div>
+
+  </div>
+
+
+  </body>
+</html>
+
+
+<!--
+  CSS Grid - 2d layout
+  FlexBox - 1d layout
+-->
+
+<!--Create separate CSS files for separate sections.
+For example, one CSS file dedicated for video-platform. Another
+CSS file for youtube top header. Another CSS file for general.-->

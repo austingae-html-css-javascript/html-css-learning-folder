@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      body {
+        margin:0px;
+
+        font-family: Arial;
+      }
+      .container {
+        display:flex;
+        flex-direction:column;
+
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+
+
+      .profile {
+        display:flex;
+        flex-direction: row;
+
+        align-items:center;
+
+        margin-bottom: 10px;
+      }
+
+      .div-profile-picture {
+        margin-right: 25px;
+      }
+
+      img {
+        width:75px;
+        border-radius: 50px;
+      }
+
+      .div-profile-description {
+        width: 150px;
+      }
+
+      p {
+        margin:0px;
+      }
+
+      .name {
+        font-weight:bold;
+      }
+
+      .type {
+        color: rgba(114,114,114,0.6);
+        font-size: 14px;
+      }
+
+      .popularity {
+        color: rgba(114,114,114,0.6);
+        font-size:12px;
+      }
+
+      button {
+        background-color:rgb(74,157,242);
+
+        border:none;
+        border-radius: 5px;
+
+        color: white;
+        font-weight: bold;
+
+        padding-top:7px;
+        padding-bottom:7px;
+        padding-left:10px;
+        padding-right:10px;
+        
+
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container"> <!--Container holding 3 Profiles-->
+      
+      <div class="profile"> <!--Profile-->
+        <div class="div-profile-picture"> <!--Profile Picture-->
+          <img src="suzy.jpg">
+        </div>
+
+        <div class="div-profile-description"> <!--Name, Type, Popular-->
+          <p class="name">Suzy</p>
+          <p class="type">Pretty</p>
+          <p class="popularity">Popular</p>
+        </div> 
+
+        <div> <!--Follow Button-->
+          <button>
+            Follow
+          </button>
+        </div>
+      </div>
+
+      <div class="profile"> <!--Profile-->
+        <div class="div-profile-picture"> <!--Profile Picture-->
+          <img src="taeri.jpg">
+        </div>
+
+        <div class="div-profile-description"> <!--Name, Type, Popular-->
+          <p class="name">Tae Ri</p>
+          <p class="type">Cute</p>
+          <p class="popularity">Popular</p>
+        </div> 
+
+        <div> <!--Follow Button-->
+          <button>
+            Follow
+          </button>
+        </div>
+      </div>
+
+      <div class="profile"> <!--Profile-->
+        <div class="div-profile-picture"> <!--Profile Picture-->
+          <img src="irene.jpg">
+        </div>
+
+        <div class="div-profile-description"> <!--Name, Type, Popular-->
+          <p class="name">Irene</p>
+          <p class="type">Sexy</p>
+          <p class="popularity">Popular</p>
+        </div> 
+
+        <div> <!--Follow Button-->
+          <button>
+            Follow
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
+
+<!--
+  1) Create the layout for flexbox.
+  2) Create the elements, such as images and paragraphs and buttons.
+  3) Decorate the elements, and then separate the elements accordingly via margin. 
+  4) Do justify-content: start, end, or space-between
+  5) Do align-items: start, center, or end. 
+    How does "align-items" work? Type it in the parent div, 
+    and then "align-items will apply to the child divs. The elements
+    inside the child divs will align at the top (aka start), center, or bottom (aka end).
+    "
+-->

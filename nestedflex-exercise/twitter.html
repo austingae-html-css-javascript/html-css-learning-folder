@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      
+      body {
+        margin:0px;
+        font-family: Arial;
+      }
+
+      p {
+        margin:0px;
+      }
+
+      .div-twitter-post {
+        display:flex;
+        flex-direction: row;
+
+        margin-left: 100px;
+        margin-top: 100px;
+
+        width: 350px;
+        
+        box-shadow: 0px 0px 2px 2px rgba(220,220,220,0.8);
+        padding-left: 7px;
+        padding-top: 7px;
+        padding-right: 7px;
+        padding-bottom: 7px;
+
+        align-items: none;
+      }
+
+      .div-profile-image {
+        margin-right: 15px;
+      }
+
+      .profile-image {
+        width: 35px;
+      }
+
+      .div-username {
+        display:flex;
+        flex-direction: row;
+
+        align-items: none;
+
+        margin-bottom: 15px;
+      }
+
+      .div-profile-username {
+        margin-right: 5px;
+      }
+
+      .profile-username {
+        font-weight:bold;
+      }
+
+      .profile-twitter-username {
+        color:rgba(120,120,120,0.7);
+      }
+
+      .div-text {
+        margin-bottom: 13px;
+      }
+
+      .text {
+        font-size: 15px;
+      }
+
+      .div-link {
+        display: flex;
+        flex-direction: row;
+        align-items: none;
+      }
+
+      .website-image {
+        width: 70px;
+        display:block;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+      }
+
+      .div-website-description {
+        border-style:solid;
+        border-width: 1px;
+        border-color: rgba(220,220,220,0.9);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .website-url {
+        font-size: 15px;
+        color:rgba(120,120,120,0.7);
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      
+      .website-info {
+        font-size: 13px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="div-twitter-post">
+      <div class="div-profile-image"> <!--left DIV-->
+        <img class = "profile-image" src = "images/netflix.png">
+      </div>
+
+      <div> <!--right DIV-->
+        <div class="div-username"> <!--normal username and twitter username-->
+          <div class="div-profile-username"> <!--normal username-->
+            <p class="profile-username">Netflix</p>
+          </div>
+
+          <div> <!--twitter username-->
+            <p class="profile-twitter-username">@netflix</p>
+          </div>
+        </div>
+
+        <div class="div-text"> <!--text-->
+          <p class="text">Ready for the holidays? Sign up for Netflix this week for $2.99 per month for 3 months!</p>
+        </div>
+
+        <div class="div-link"> <!--website link-->
+          <div> <!--website image-->
+            <img class="website-image" src="images/netflix-image.jpg">
+          </div>
+
+          <div class="div-website-description"> <!--website description-->
+            <div>
+              <p class="website-url">netflix.com</p>
+            </div>
+            <div>
+              <p class="website-info">Netflix Discount for a Limited Time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

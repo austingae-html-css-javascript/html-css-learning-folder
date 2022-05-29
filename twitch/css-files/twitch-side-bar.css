@@ -1,0 +1,84 @@
+.twitch-side-bar {
+  background-color: rgb(32,30,36);
+  padding-left: 10px;
+  padding-top: 10px;
+
+  position: fixed;
+  top: 60px;
+  left: 0px;
+  bottom: 0px;
+
+  width: 220px;
+
+  z-index: 200;
+}
+
+.recommended-channels-title-and-collapse-button-DIV {
+  display:flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+.recommended-channels-title-DIV {
+  margin-right: 10px;
+}
+
+.recommended-channels-title {
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+
+}
+
+.collapse-button {
+  background-color: rgb(32,30,37);
+  border:none;
+  color: white;
+  font-weight: 900;
+}
+
+.twitch-channel-DIV {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+
+  align-items: center;
+}
+
+.twitch-channel-image-DIV {
+  margin-right: 8px;
+}
+
+.twitch-channel-image {
+  border-radius: 50px;
+  width: 33px;
+}
+
+.twitch-channel-description-DIV {
+  width: 120px;
+}
+
+.twitch-channel-description-DIV .twitch-channel-name {
+  color: rgb(222,222,227);
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.twitch-channel-description-DIV .twitch-channel-game {
+  color: rgb(172,172,183);
+  font-size: 12px;
+}
+
+.middle-red-dot {
+  width: 12px;
+  border-radius: 50px;
+}
+
+.num-of-viewers {
+  color: rgb(222,222,227);
+  font-size: 12px;
+  display: inline-block;
+}

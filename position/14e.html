@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        font-family: Arial;
+
+        height: 2000px;
+      }
+
+      p {
+        margin: 0px;
+      }
+
+      .facebook-header {
+        display:flex;
+        flex-direction: row;
+
+        position: fixed;
+        top: 10px;
+        left: 0px;
+        right: 0px;
+      }
+
+      .left-section {
+        display:flex;
+        flex-direction: row;
+
+        align-items: center;
+
+        width: 500px;
+      }
+
+      .profile-image-section {
+        margin-left: 40px;
+        margin-right: 20px;
+      }
+
+      .profile-image {
+        width: 50px;
+        border-radius: 50px;
+      }
+
+      .profile-name {
+        font-weight: bold;
+      }
+
+      .right-section {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .add-friend-button-section {
+        margin-right: 10px;
+      }
+
+      .add-friend-button {
+        background-color: rgb(69,125,224);
+        color: white;
+        font-weight: bold;
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+
+        border: none;
+        border-radius: 5px;
+      }
+
+      .message-button {
+        background-color: rgb(231,233,236);
+        color: black;
+        font-weight: bold;
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+
+        border: none;
+        border-radius: 5px;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+    <div class="facebook-header">
+      <div class="left-section"> <!--Left Section: Profile Image and Name-->
+        <div class="profile-image-section"> <!--Profile Image-->
+          <img class="profile-image" src="kimjiwon.jpg">
+        </div>
+
+        <div> <!--Profile Name-->
+          <p class="profile-name">Kim Ji Won</p>
+        </div>
+      </div>
+
+      <div class="right-section"> <!--Right Section: Buttons-->
+        <div class="add-friend-button-section">
+          <button class="add-friend-button">Add Friend</button>
+        </div>
+        
+        <div class="message-button-section">
+          <button class="message-button">Message</button>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>

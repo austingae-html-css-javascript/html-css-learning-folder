@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p {
+        margin: 0px;
+      }
+
+      .clothes-selection-list {
+        display:flex;
+        flex-direction: row;
+      }
+
+      .clothes-container {
+        position: relative;
+      }
+
+      .clothes-image {
+        width: 300px;
+        display: block;
+      }
+
+      .discount-container {
+        position: absolute;
+        top: 20px;
+        right: 0px;
+      }
+
+      .discount-rate {
+        color: white;
+        background-color: black;
+
+        cursor:default;
+      }
+
+      .add-to-cart-container {
+        display:flex;
+        flex-direction:row;
+
+        justify-content: center;
+        align-items: center;
+
+        width: 300px;
+        height: 100px;
+        background-color: rgb(220,220,220,0.3);
+
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+      }
+
+      .add-to-cart-button {
+        color: black;
+        background-color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="clothes-selection-list">
+      <div class="clothes-container"> <!--CLOTHES CONTAINER-->
+        <img class="clothes-image" src="abercrombie.webp">
+        <div class="discount-container"> <!--DISCOUNT CONTAINER-->
+          <p class="discount-rate">20% OFF</p>
+        </div>
+  
+        <div class="add-to-cart-container"> <!--ADD TO CART CONTAINER-->
+          <div> <!--add to cart button-->
+            <button class="add-to-cart-button">Add to Cart Button</button>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,171 @@
+.twitch-top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+
+  background-color: rgb(24,24,27);
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  height: 40px;
+
+  z-index: 200;
+  
+}
+
+.twitch-top-bar-left-section {
+  display:flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.twitch-top-bar-left-section .twitch-logo-DIV {
+  padding-left: 10px;
+}
+
+.twitch-top-bar-left-section .twitch-logo {
+  height: 25px;
+  cursor: pointer;
+}
+
+.twitch-top-bar-left-section .browser-DIV {
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
+.twitch-top-bar-left-section .browse {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.twitch-top-bar-left-section .three-vertical-dots-button {
+  color: white;
+  background-color: rgb(24,24,27);
+  border:none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.twitch-top-bar-middle-section {
+  display: flex;
+  flex-direction: row;
+
+  flex: 1;
+  max-width: 400px;
+}
+
+.twitch-top-bar-middle-section .search-box-DIV {
+  width: 100%;
+}
+
+.twitch-top-bar-middle-section .search-box {
+  background-color: rgb(70,70,73);
+  color: rgb(200,200,201);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  width: 100%;
+
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+  outline: none;
+  font-size: 14px;
+}
+
+.twitch-top-bar-middle-section .search-box::placeholder {
+  color: rgb(200,200,201);
+}
+
+.twitch-top-bar-middle-section .search-button {
+  width: 36px;
+  height: 36px;
+  
+  padding: 0px;
+
+  border-top: 0.5px solid rgb(70,70,73);
+  border-right:  0.5px  solid rgb(70,70,73);
+  border-bottom: 0.5px  solid rgb(70,70,73);
+  border-left: 0.5px  solid black;
+
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  margin-right: 10px;
+
+  cursor: pointer
+
+}
+
+.search-button .magnifying-glass {
+  width: 100%;
+  display:block;
+}
+
+.twitch-top-bar-right-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.twitch-top-bar-right-section .prime-loot-crown {
+  height: 40px;
+  cursor: pointer;
+}
+
+.twitch-top-bar-right-section .prime-loot-crown-DIV {
+  margin-right: 10px;
+}
+
+.twitch-top-bar-right-section .sign-up-button-DIV {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.twitch-top-bar-right-section .log-in-button {
+  color: white;
+  background-color: rgb(58,58,61);
+  border: none;
+  padding: 8px 12px 8px 12px;
+  border-radius: 5px;
+
+  display: block;
+
+  cursor: pointer;
+}
+
+.twitch-top-bar-right-section .sign-up-button {
+  color: white;
+  background-color: rgb(145,71,252);
+  border: none;
+  padding: 8px 12px 8px 12px;
+  border-radius: 5px;
+
+  display: block;
+
+  cursor: pointer;
+}
+
+.twitch-top-bar-right-section .user-DIV {
+  padding-right: 10px;
+}
+
+.twitch-top-bar-right-section .user {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+
+  cursor: pointer;
+}

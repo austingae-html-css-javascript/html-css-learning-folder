@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      #twitter-box {
+        display:inline-block;
+        border:none;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 5px rgba(220,220,220,0.9);
+        padding-left: 10px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+      .align {
+        vertical-align: middle;
+      }
+
+      #pic {
+        width: 100px;
+        border-radius: 250px;
+      }
+
+      #tweet-box {
+        border:none;
+        width:300px;
+        margin-right: 15px;
+        margin-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        outline:none;
+        font-size: 25px;
+      }
+
+      #tweet-box::placeholder {
+        color:rgb(132, 131, 131,0.8);
+      }
+
+      
+
+      #tweet-button {
+        background-color: rgb(29, 155, 240);
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 20px;
+        border:none;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <div id = "twitter-box">
+      <img id = "pic" class = "align" src="suzy.jpg">
+      <input id = "tweet-box" class = "align" type="text" placeholder="What's happening?">
+      <button id = "tweet-button" class = "align">Tweet</button>
+    </div>
+  </body>
+</html>
+
+<!--images with different sizes but the same proportion will, after you adjust their width in coding, have the same size.-->

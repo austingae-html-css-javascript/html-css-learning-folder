@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      body {
+        margin:0px;
+        font-family: Arial;
+      }
+      .main-div {
+        display:flex;
+        flex-direction:row;
+
+        justify-content:space-between;
+
+        align-items: center;
+
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+
+        background-color: rgb(114,83,164);
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-left: 10px;
+        padding-right:10px;
+      }
+
+      .div-home {
+        margin-right: 100px;
+      }
+
+      .home {
+        margin:0px;
+        color: white;
+        font-weight: bold;
+      }
+
+      .div-search-bar {
+        flex:1;
+        max-width: 500px;
+      }
+
+      .search-bar {
+        width: 100%;
+        padding-left: 10px;
+        padding-right:5px;
+        padding-top:5px;
+        padding-bottom:5px;
+
+        border-radius: 10px;
+        border:none;
+        outline:none;
+      }
+
+      .div-download-button {
+        margin-left: 150px;
+      }
+
+      .download-button {
+        background-color: rgb(114,83,164);
+        color: white;
+        border-style:solid;
+        border-color: white;
+        border-radius: 2px;
+        border-width: 0.5px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 6px;
+        padding-bottom:6px;
+
+        cursor:pointer;
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    <div class="main-div">
+      <div class="div-home">
+        <p class="home">
+          Home
+        </p>
+      </div>
+      
+      <div class="div-search-bar">
+        <input class="search-bar" type="text" placeholder="Search">
+      </div>
+
+      <div class="div-download-button">
+        <button class="download-button">
+          Download
+        </button>
+      </div>
+
+    </div>
+  </body>
+</html>
+
+<!--
+  1) Create the layout for flexbox.
+  2) Create the elements, such as images and paragraphs and buttons.
+  3) Decorate the elements (parent div, images, paragraphs, buttons, etc.), and then separate the elements accordingly via margin. 
+  4) Do justify-content: start, end, or space-between
+  5) Do align-items: start, center, or end. 
+    How does "align-items" work? Type it in the parent div, 
+    and then "align-items will apply to the child divs. The elements
+    inside the child divs will align at the top (aka start), center, or bottom (aka end).
+-->

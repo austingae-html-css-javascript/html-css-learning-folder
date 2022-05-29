@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      body {
+        font-family: Arial;
+      }
+
+      .div-for-youtube-bar {
+        display:inline-block;
+        margin-left: 5px;
+        margin-right: 10px;
+        vertical-align: top;
+      }
+      .div-youtube-bar {
+        display:grid;
+        grid-template-columns: 72px;
+        grid-template-rows: auto auto auto auto auto auto;
+
+        zoom:0.5; /*shrinks the youtube-bar to half its size */
+        
+      }
+
+      img {
+        width:100%;
+      }
+
+      p {
+        text-align: center;
+        font-size: 14px;
+      }
+
+      .div-for-video-platform {
+        display:inline-block;
+        width: 90%;
+        
+      }
+
+      .main-div-for-video {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+
+        column-gap: 10px;
+        row-gap: 10px;
+
+        background-color: rgba(220,220,220,0.5);
+      }
+
+      .div-logo-title {
+        display:grid;
+        grid-template-columns: 10% 90%;
+        grid-template-rows: auto;
+      }
+
+      .title {
+        text-align:left;
+        padding-left: 10px;
+      }
+
+      .text {
+        text-align:left;
+        margin-left: 43.2px;
+        font-size: 12px;
+        color: rgb(114,114,114);
+      }
+
+    </style>
+  </head>
+  
+  <body>
+
+    <div class = "div-for-youtube-bar">
+      <div class = "div-youtube-bar">
+        <div class = "div-button">
+          <img src = home.svg>
+          <p>Home</p>
+        </div>
+  
+        <div>
+          <img src = explore.svg>
+          <p>Explore</p>
+        </div>
+  
+        <div>
+          <img src = subscriptions.svg>
+          <p>Subscriptions</p>
+        </div>
+  
+        <div>
+          <img src = originals.svg>
+          <p>Original</p>
+        </div>
+  
+        <div>
+          <img src = youtube-music.svg>
+          <p>YouTube Music</p>
+        </div>
+  
+        <div>
+          <img src = library.svg>
+          <p>Library</p>
+        </div>
+      </div>
+    </div>
+
+    <div class = "div-for-video-platform">
+      <div class = "main-div-for-video">
+        <div> <!--Video #1-->
+          <div> <!--thumbnail-->
+            <img src="thumbnail/htmlcsstutorial.webp">
+          </div>
+          
+          <div class = "div-logo-title"> <!--channel logo and video title-->
+            <div class ="div-logo"> <!--channel logo-->
+              <img class = "channel-logo" src = "thumbnail/youtube-logo.png">
+            </div>
+
+            <div> <!--video title-->
+              <p class="title"> HTML and CSS Tutorial in 6 Hours!</p>
+            </div>
+          </div>
+
+          <div> <!--channel name and video stats-->
+            <p class = "text">SuperSimpleDev</p>
+            <p class = "text">365,000 views &#183 6 months ago</p>
+          </div>
+        </div> <!--End of Video #1-->
+
+        <div> <!--Video #2-->
+          <div> <!--thumbnail-->
+            <img src="thumbnail/lofihiphop.webp">
+          </div>
+
+          <div class = "div-logo-title"> <!--channel logo and video title-->
+            <div class ="div-logo"> <!--channel logo-->
+              <img class = "channel-logo" src = "thumbnail/youtube-logo.png">
+            </div>
+
+            <div> <!--video title-->
+              <p class="title"> Lofi Hip Hop</p>
+            </div>
+          </div>
+
+          <div> <!--channel name and video stats-->
+            <p class = "text">Lofi Channel</p>
+            <p class = "text">400,000,000 views &#183 6 months ago</p>
+          </div>
+        </div> <!--End of Video #2-->
+
+        <div> <!--Video #3-->
+          <div> <!--thumbnail-->
+            <img src="thumbnail/offlinetveggtrust.webp">
+          </div>
+
+          <div class = "div-logo-title"> <!--channel logo and video title-->
+            <div class ="div-logo"> <!--channel logo-->
+              <img class = "channel-logo" src = "thumbnail/youtube-logo.png">
+            </div>
+
+            <div> <!--video title-->
+              <p class="title"> OfflineTV Egg Trust Challenge</p>
+            </div>
+          </div>
+
+          <div> <!--channel name and video stats-->
+            <p class = "text">OfflineTV</p>
+            <p class = "text">1,000,000 views &#183 11 months ago</p>
+          </div>
+        </div> <!--End of Video #3-->
+
+        <div> <!--Video #4-->
+          <div> <!--thumbnail-->
+            <img src="thumbnail/offlinetvwhiteelephant.webp">
+          </div>
+
+          <div class = "div-logo-title"> <!--channel logo and video title-->
+            <div class ="div-logo"> <!--channel logo-->
+              <img class = "channel-logo" src = "thumbnail/youtube-logo.png">
+            </div>
+
+            <div> <!--video title-->
+              <p class="title"> OfflineTV White Elephant Challenge</p>
+            </div>
+          </div>
+
+          <div> <!--channel name and video stats-->
+            <p class = "text">OfflineTV</p>
+            <p class = "text">2,000,000 views &#183 2 years ago</p>
+          </div>
+        </div> <!--End of Video #4-->
+
+        <div> <!--Video #5-->
+          <div> <!--thumbnail-->
+            <img src="thumbnail/siwonjoonho.webp">
+          </div>
+
+          <div class = "div-logo-title"> <!--channel logo and video title-->
+            <div class ="div-logo"> <!--channel logo-->
+              <img class = "channel-logo" src = "thumbnail/youtube-logo.png">
+            </div>
+
+            <div> <!--video title-->
+              <p class="title"> My Little Boy: Life of a Rich Man</p>
+            </div>
+          </div>
+
+          <div> <!--channel name and video stats-->
+            <p class = "text">My Little Boy</p>
+            <p class = "text">70,000 views &#183 1 day ago</p>
+          </div>
+        </div> <!--End of Video #5-->
+
+        <div> <!--Video #6-->
+          <div> <!--thumbnail-->
+            <img src="thumbnail/tyler1.webp">
+          </div>
+
+          <div class = "div-logo-title"> <!--channel logo and video title-->
+            <div class ="div-logo"> <!--channel logo-->
+              <img class = "channel-logo" src = "thumbnail/youtube-logo.png">
+            </div>
+
+            <div> <!--video title-->
+              <p class="title"> Tyler1 GETS TROLLED</p>
+            </div>
+          </div>
+
+          <div> <!--channel name and video stats-->
+            <p class = "text">Tyler1</p>
+            <p class = "text">260,000 views &#183 1 months ago</p>
+          </div>
+        </div> <!--End of Video #6-->
+        
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--what does vertical-align do? 
+It aligns the element to the top, middle, or bottom of the div it is in.-->

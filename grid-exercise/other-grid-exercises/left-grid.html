@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<!--Goal: 1) Make a 4 columns 2 rows DIV. 2) Underneath, make a 2 Columns 1 Row DIV. Both DIV must take up only 70% of the web page.-->
+<html>
+  <head>
+    <style>
+      .main-div-1 {
+        width: 70%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto; 
+
+        column-gap: 50px;
+        row-gap: 50px;
+      }
+
+      .main-div-2 {
+        width: 70%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+
+        column-gap: 50px;
+        row-gap: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main-div-1">
+      <div>
+        DIV1
+      </div>
+
+      <div>
+        DIV2
+      </div>
+
+      <div>
+        DIV3
+      </div>
+
+      <div>
+        DIV4
+      </div>
+
+      <div>
+        DIV5
+      </div>
+
+      <div>
+        DIV6
+      </div>
+
+      <div>
+        DIV7
+      </div>
+
+      <div>
+        DIV8
+      </div>
+    </div>
+
+    <div class = "main-div-2">
+      <div>
+        DIV1
+      </div>
+
+      <div>
+        DIV2
+      </div>
+    </div>
+  </body>
+</html>

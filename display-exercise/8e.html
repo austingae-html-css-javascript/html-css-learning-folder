@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      body {
+        font-family: Arial;
+      }
+
+      #title {
+        display:block;
+        font-size: 30px;
+      }
+
+      #pickup-text {
+        margin-bottom: 10px;
+      }
+
+      #destination-text {
+        margin-bottom: 30px;
+      }
+
+      .text {
+        display:block;
+        width: 300px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-right: 10px;
+
+        background-color: rgba(220,220,220,0.5);
+
+        border:none;
+
+        font-size: 14px;
+        }
+
+        .text::placeholder {
+          color: gray;
+          opacity: 0.8
+        }
+
+      #request-button {
+        display: inline-block;
+        background-color: black;
+        color: white;
+        border:none;
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        margin-right: 20px;
+
+        cursor:pointer;
+      }
+
+      #schedule-button {
+        display: inline-block;
+        background-color: rgba(220,220,220,0.5);
+        color: black;
+        border: none;
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        margin-right: 20px;
+
+        cursor:pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <p id ="title">Request a ride now</p>
+    <input id ="pickup-text" class = "text" type="text" placeholder="Enter pickup location">
+    <input id="destination-text" class = "text" type="text" placeholder="Enter destination">
+    <button id="request-button">Request now</button>
+    <button id="schedule-button">Schedule for later</button>
+  </body>
+</html>

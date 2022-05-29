@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      p {
+        font-family: Arial;
+        margin:0px;
+      }
+
+      .div-inboxes {
+        display:flex;
+        flex-direction: column;
+      }
+
+      .div-all-inboxes {
+        margin-bottom: 20px;
+      }
+
+      .all-inboxes {
+        color: rgb(150,150,150);
+        font-size: 12px;
+      }
+
+      .div-inbox {
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+
+        margin-bottom: 20px;
+        height: 60px;
+      }
+
+      .div-image {
+        margin-right: 15px;
+      }
+
+      .image {
+        width: 50px;
+        border-radius: 30px;
+
+        display:block;
+      }
+      
+      .div-title-time {
+        display:flex;
+        flex-direction: row;
+
+        margin-bottom: 5px;
+      }
+
+      .title {
+        font-weight: bold;
+        width: 220px;
+      }
+
+      .time {
+        font-size: 12px;
+        color: rgb(150,150,150);
+      }
+
+      .div-sub-title {
+        margin-bottom: 5px;
+      }
+
+      .sub-title {
+        font-weight: bold;
+        font-size: 14px;
+      }
+
+      .content {
+        font-size: 13px;
+        color: rgb(150,150,150);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="div-inboxes">
+      <div class="div-all-inboxes"> <!--ALL INBOXES-->
+        <p class="all-inboxes">ALL INBOXES</p>
+      </div>
+
+      <div class="div-inbox"> <!--INBOX #1-->
+        <div class="div-image"> <!--IMAGE-->
+          <img class="image" src ="images/chewy.webp">
+        </div>
+
+        <div> <!--DESCRIPTION-->
+          <div class="div-title-time">
+            <div>
+              <p class="title">Chewy Promotions</p>
+            </div>
+            <div class="div-time">
+              <p class="time">4:58 PM</p>
+            </div>
+          </div>
+
+          <div class="div-sub-title">
+            <p class="sub-title">Biggest sales of the year!</p>
+          </div>
+
+          <div>
+            <p class="content">Hey there! We're writing to tell you about our...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="div-inbox"> <!--INBOX #2-->
+        <div class="div-image"> <!--IMAGE-->
+          <img class="image" src ="images/bestbuy.png">
+        </div>
+
+        <div> <!--DESCRIPTION-->
+          <div class="div-title-time">
+            <div>
+              <p class="title">Best Buy</p>
+            </div>
+            <div class="div-time">
+              <p class="time">12:32 PM</p>
+            </div>
+          </div>
+
+          <div class="div-sub-title">
+            <p class="sub-title">Your Best Buy eReceipt</p>
+          </div>
+
+          <div>
+            <p class="content">Thank you for shopping at Best Buy, here is...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="div-inbox"> <!--INBOX #3-->
+        <div class="div-image"> <!--IMAGE-->
+          <img class="image" src ="images/netflix.png">
+        </div>
+
+        <div> <!--DESCRIPTION-->
+          <div class="div-title-time">
+            <div>
+              <p class="title">Netflix</p>
+            </div>
+            <div class="div-time">
+              <p class="time">9:00 AM</p>
+            </div>
+          </div>
+
+          <div class="div-sub-title">
+            <p class="sub-title">Here's what's coming soon to Netflix</p>
+          </div>
+
+          <div>
+            <p class="content">Brand new movies and shows, old favorites...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

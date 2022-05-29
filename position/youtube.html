@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial;
+      }
+
+      p {
+        margin: 0px;
+      }
+
+      .youtube-videos-platform-DIV {
+        display:flex;
+        flex-direction: row;
+      }
+
+      .one-youtube-video-DIV {
+        width: 300px;
+      }
+      
+      .top-DIV {
+        position: relative;
+      }
+
+      .youtube-thumbnail {
+        width: 300px;
+      }
+
+      .time-stamp-DIV {
+        position: absolute;
+        bottom: 8px;
+        right: 6px;
+      }
+
+      .time-stamp {
+        color: white;
+        background-color: black;
+        font-size: 12px;
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+      }
+      
+      .bottom-DIV {
+        display: flex;
+        flex-direction: row;
+
+        margin-top: 10px;
+      }
+
+      .youtube-channel-DIV {
+        margin-right: 10px;
+      }
+
+      .youtube-channel {
+        width: 35px;
+        border-radius: 30px;
+      }
+
+      .video-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .video-channel-name, .video-stats {
+        color: rgb(114,114,114);
+        font-size: 12px;
+      }
+
+      .video-channel-name {
+        margin-bottom: 5px;
+      }
+
+      
+
+
+
+    </style>
+  </head>
+
+  <body>
+    <div class="youtube-videos-platform-DIV"> <!--youtube videos platform DIV-->
+      <div class="one-youtube-video-DIV"> <!--one youtube video DIV-->
+        <div class="top-DIV"> <!--top DIV-->
+          <img class="youtube-thumbnail" src="youtubethumbnail.webp">
+          <div class="time-stamp-DIV"> <!--timestamp DIV-->
+            <p class="time-stamp">14:20</p>
+          </div>
+        </div>
+  
+        <div class="bottom-DIV"> <!--bottom DIV-->
+          <div class="youtube-channel-DIV"> <!--channel profile picture-->
+            <img class="youtube-channel" src="youtubechannel.jpeg">
+          </div>
+
+          <div> <!--video description-->
+            <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+            <p class="video-channel-name">Marques Brownlee</p>
+            <p class="video-stats">3.4M views &#183 6 months ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

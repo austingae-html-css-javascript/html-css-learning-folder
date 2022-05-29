@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      body {
+        margin:0px;
+        font-family: Arial;
+
+        height: 2000px;
+      }
+
+      p {
+        margin:0px;
+      }
+      .discord-sidebar {
+        display: flex;
+        flex-direction: row;
+
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+      }
+
+      /*Left Section*/
+
+      .left-section {
+        background-color: rgb(29,30,36);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      .image-section {
+        margin-bottom: 10px;
+      }
+
+      .image {
+        width: 50px;
+        border-radius: 50px;
+      }
+
+      /*Right Section*/
+      .right-section {
+        background-color: rgb(54,53,54);
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-right: 15px;
+      }
+
+      .right-section-top-bar {
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+
+        margin-bottom: 15px;
+      }
+
+      .info-section {
+        margin-right: 100px;
+      }
+
+      .info {
+        color: rgb(228,227,228);
+        font-weight: bold;
+
+        font-size: 15px;
+      }
+
+      .add-button {
+        color: rgb(156,156,161);
+        background-color: rgb(54,53,54);
+        border:none;
+
+        font-size: 25px;
+        font-weight: bold;
+      }
+
+      .add-button:hover {
+        color: white;
+      }
+
+      .hastag-conversation-section {
+        margin-bottom: 15px;
+      }
+
+      .hashtag-conversation {
+        color: rgb(156,156,161);
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="discord-sidebar">
+      <div class="left-section"> <!--Left Section: Discord Group Images-->
+        <div class="image-section"><img class="image" src="dog.jpg"></div>
+        <div class="image-section"><img class="image" src="koreanflag.png"></div>
+        <div><img class="image" src="python.png"></div>
+      </div>
+
+      <div class="right-section"> <!--Right Section: Discord Hashtags-->
+        <div class="right-section-top-bar">
+          <div class="info-section"> <!--Info-->
+            <p class="info">INFO</p>
+          </div>
+
+          <div> <!--add Button-->
+            <button class="add-button">+</button>
+          </div>
+        </div>
+
+        <div class="hastag-conversation-section">
+          <p class="hashtag-conversation"># new-videos</p>
+        </div>
+        <div class="hastag-conversation-section">
+          <p class="hashtag-conversation"># updates</p>
+        </div>
+        <div>
+          <p class="hashtag-conversation"># faq</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

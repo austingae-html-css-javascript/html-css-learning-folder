@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      body {
+        margin:0px;
+        margin-top: 20px;
+
+        font-family: Arial;
+      }
+      .main-div {
+        display:flex;
+        flex-direction:row;
+        
+        justify-content: space-between;
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: rgba(113,82,162);
+
+        align-items: center;
+      }
+
+      p {
+        margin:0px;
+      }
+
+      .div-home {
+        margin-right: 50px;
+      }
+
+      .div-search {
+        flex:1;
+        max-width: 500px;
+      }
+
+      input {
+        width:100%;
+      }
+
+      .div-download {
+        margin-left: 50px;
+      }
+
+      .home {
+        color:white;
+        font-weight:bold;
+      }
+
+      .search-bar {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+
+        border-radius: 20px;
+        border:none;
+
+        outline:none;
+      }
+
+      .download-button {
+        background-color: rgba(113,82,162);
+        color: white;
+
+        border-style: solid;
+        border-color: white;
+        border-width: 0.5px;
+        border-radius: 2px;
+
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+      }
+
+
+
+    </style>
+  </head>
+
+  <body>
+    <div class="main-div">
+      <div class="div-home">
+        <p class ="home">Home</p>
+      </div>
+
+      <div class="div-search">
+        <input class="search-bar" type="text" placeholder="Search">
+      </div>
+
+      <div class="div-download">
+        <button class="download-button">Download</button>
+      </div>
+    </div>
+  </body>
+</html>

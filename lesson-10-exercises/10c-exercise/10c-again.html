@@ -1,0 +1,134 @@
+<!--05/04: Create the YouTube Top Bar with the Knowledge I Current Have in HTML and CSS-->>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .div-hamburger-logo,
+      .div-youtube-logo,
+      .div-youtube-search,
+      .div-youtube-voice-search,
+      .div-youtube-upload,
+      .div-youtube-apps,
+      .div-youtube-notification,
+      .div-youtube-profile-image
+      {
+        display:inline-block;
+        vertical-align: top;
+      }
+      .image {
+        width: 25px;
+      }
+
+      .image-hamburger-logo {
+        width:25px;
+        padding-left: 10px;
+        padding-right:10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        margin-right: 10px;
+        margin-top: 3px;
+      }
+
+      .image-youtube-logo {
+        width: 90px;
+        margin-right: 120px;
+        margin-top: 5px;
+      }
+
+      .youtube-search,
+      .search-button {
+        float:left;
+      }
+      .youtube-search {
+        font-size: 18px;
+        border-style: solid;
+        border-color: rgba(114,114,114,0.3);
+        border-width: 0.5px;
+
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        outline: none;
+      }
+      .search-button {
+        width:55px;
+        height:32px;
+        border-width:0.5px;
+        margin-right: 10px;
+        background-color: rgba(220,220,220,0.3);
+        vertical-align: middle; /*This button will align vertically to the top of its div (div-youtube-search)*/
+      }
+      .image-search {
+        width: 20px;
+        vertical-align: middle;
+      }
+
+      .div-youtube-voice-search {
+        width: 35px;
+        height: 35px;
+        background-color: rgba(220,220,220,0.3);
+        border-radius: 20px;
+        text-align: center;
+        margin-right: 100px;
+      }
+
+      .image-voice-search {
+        width:25px;
+        margin-top: 4px;
+      }
+
+      .div-youtube-upload,
+      .div-youtube-apps,
+      .div-youtube-notification,
+      .div-youtube-profile-image {
+        margin-right: 10px;
+      }
+
+      .image-profile {
+        width: 30px;
+        border-radius: 20px;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <div class = "div-youtube-top-bar">
+      <div class = "div-hamburger-logo">
+        <img class = "image-hamburger-logo" src = "hamburger-menu.svg">
+      </div>
+
+      <div class = "div-youtube-logo">
+        <img class = "image-youtube-logo" src = "youtube-logo.svg">
+      </div>
+
+      <div class = "div-youtube-search">
+        <input class = "youtube-search" type="search" placeholder="Search">
+        <button class = "search-button"><img class = "image-search" src = "search.svg"></button>
+      </div>
+
+      <div class = "div-youtube-voice-search">
+        <img class = "image-voice-search" src = "voice-search-icon.svg">
+      </div>
+
+      <div class = "div-youtube-upload">
+        <img class = "image" src = "upload.svg">
+      </div>
+
+      <div class = "div-youtube-apps">
+        <img class = "image" src = "youtube-apps.svg">
+      </div>
+
+      <div class = "div-youtube-notification">
+        <img class = "image" src = "notifications.svg">    
+      </div>
+
+      <div class = "div-youtube-profile-image">
+        <img class = "image-profile" src = "kimtaeri.jpg">
+      </div>
+    </div>
+  </body>
+</html>

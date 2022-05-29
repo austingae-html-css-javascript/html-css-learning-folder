@@ -1,0 +1,15 @@
+body {
+  font-family: 'Inter';
+  margin: 0px;
+  padding-top: 72px;
+  padding-left: 250px;
+  padding-bottom: 50px;
+
+  height: auto;
+
+  background-color: black;
+}
+
+p {
+  margin: 0px;
+}
